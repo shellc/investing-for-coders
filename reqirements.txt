@@ -1,0 +1,2 @@
+mkdocs[i18n]
+mkdocs-material

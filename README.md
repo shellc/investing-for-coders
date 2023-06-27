@@ -3,7 +3,12 @@
   <br/>
   Investing for Coders
 </h1>
+
 🚀 这是一本写给程序员的投资入门书籍，借助代码和数据来帮助程序员了解投资的基本概念和技巧，以便更好地管理自己的财务和投资组合。
+
+## 发布
+
+📖 本书正式发布地址: [https://shellc.cn/investing-for-coders/](https://shellc.cn/investing-for-coders/)
 
 ## 许可
 

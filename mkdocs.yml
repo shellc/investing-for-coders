@@ -1,0 +1,7 @@
+site_name: 程序员玩赚投资
+repo_url: https://github.com/shellc/investing-for-coders
+locale: zh_CN
+
+theme: 
+  name: material
+  language: zh
