@@ -5,3 +5,13 @@ locale: zh_CN
 theme: 
   name: material
   language: zh
+
+extra:
+  analytics:
+    provider: google
+    property: G-NS1Z08QYBL
+
+nav:
+  - 'index.md'
+  - '程序员投资入门课':
+    - 'primer/lesson_1.md'
