@@ -1,10 +1,21 @@
 site_name: 程序员玩赚投资
+site_url: https://shellc.cn/investing-for-coders/
 repo_url: https://github.com/shellc/investing-for-coders
+site_author: shellc
 locale: zh_CN
+site_description: >-
+  这是一本写给程序员的投资入门书籍，借助代码和数据来帮助程序员了解投资的基本概念和技巧，以便更好地管理自己的财务和投资组合。
 
 theme: 
   name: material
   language: zh
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
 
 extra:
   analytics:
@@ -14,5 +25,6 @@ extra:
 nav:
   - 'index.md'
   - '程序员投资入门课':
-    - 'primer/lesson_1.md'
-    - 'primer/lesson_2.md'
+    - '像开发软件一样思考投资': 'primer/lesson_1.md'
+    - '选择投资工具': 'primer/lesson_2.md'
+    - '车票和上下车时机': 'primer/lesson_3.md'
