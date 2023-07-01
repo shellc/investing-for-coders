@@ -189,7 +189,9 @@
                     
 
 
-<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="程序员玩赚投资" class="md-nav__button md-logo" aria-label="程序员玩赚投资" data-md-component="logo">
       
@@ -292,12 +294,16 @@
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
       
       
       
@@ -320,7 +326,7 @@
   
     <li class="md-nav__item">
       <a href="primer/lesson_1/" class="md-nav__link">
-        像开发软件一样思考投资：关键指标和状态监控
+        像开发软件一样思考投资
       </a>
     </li>
   
@@ -334,7 +340,21 @@
   
     <li class="md-nav__item">
       <a href="primer/lesson_2/" class="md-nav__link">
-        选择投资工具：银行理财、基金和股票，到底买哪个
+        选择投资工具
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="primer/lesson_3/" class="md-nav__link">
+        车票和上下车时机
       </a>
     </li>
   
@@ -354,53 +374,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    资源
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    程序员投资入门课
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    版权许可
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -413,8 +386,8 @@
 
 
 <h1 id="_1">首页</h1>
-<p>《程序员玩赚投资》是写给程序员的一个投资教程，初衷是希望能够帮助程序员更有效地在股票市场进行投资。</p>
-<p>为什么程序员需要特别的投资教程呢？原因和程序员群体的编程技能有关。通过编程，我们可以不再局限于股票分析软件的功能，可以更深入地分析金融数据，从中获得更多的洞察，优化投资效果。这本书中会使用到 Python 编程语言和 Pandas 等数据分析工具，也会用到一些简单的机器学习算法。不用过于担心对于编程技能的要求，你只要轻度掌握 Python 的使用就可以，不需要你是以编程为职业的真正程序员。</p>
+<p>《程序员玩赚投资》是写给程序员的投资教程，初衷是希望能够帮助程序员更有效地投资。</p>
+<p>为什么程序员需要特别的投资教程？原因和程序员群体的编程技能有关。通过编程，我们可以不再局限于股票分析软件的功能，可以更深入地分析金融数据，从中获得更多的洞察，优化投资效果。这本书中会使用到 Python 编程语言和 Pandas 等数据分析工具，也会用到一些简单的机器学习算法。不用过于担心对于编程技能的要求，你只要轻度掌握 Python 的使用就可以，不需要你是以编程为职业的真正程序员。</p>
 <p>本教程的特点以及与一些投资书籍的区别：</p>
 <ol>
 <li>不会特别推崇某一种投资风格，比如价值或成长。</li>
@@ -428,7 +401,7 @@
 <h2 id="_2">资源</h2>
 <p>本书中会有很多图表和数据分析，数据分析以 jupyter notebook 发布在 notebooks 目录，用到的数据 在 data 目录。</p>
 <h2 id="_3">程序员投资入门课</h2>
-<p>投资入门课是我们这个系列的第一部分，目标读者是那些对股票市场有一定了解，又没有太多研究，没有形成可靠投资系统的程序员。目标是提供一套简单可操作的微型投资系统，能够快速优化自己的投资活动，为我们的投资建立一个稳健的基础。</p>
+<p>投资入门课是这个系列的第一部分，目标读者是那些对股票市场有一定了解，又没有太多研究，没有形成可靠投资系统的程序员。目标是提供一套简单可操作的微型投资系统，能够快速优化投资活动，为我们的投资建立一个稳健的基础。</p>
 <ul>
 <li><a href="primer/lesson_1/">像开发软件一样思考投资：关键指标和状态监控</a></li>
 <li><a href="primer/lesson_2/">选择投资工具：银行理财、基金和股票，到底买哪个</a></li>
@@ -477,7 +450,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.sections", "navigation.expand", "toc.integrate"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
       <script src="assets/javascripts/bundle.b425cdc4.min.js"></script>
